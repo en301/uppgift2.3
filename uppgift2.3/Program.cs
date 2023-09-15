@@ -13,7 +13,7 @@ namespace uppgift_2_3
 
             int dagar = int.Parse(x);
             int km = int.Parse(y);
-            int sum = dagar * 500 + km * 1 + 300;
+            int sum = dagar * 500 - 500 + km * 1 + 300;
             Console.WriteLine("Det kommer kosta "+ sum +" kr att hyra bilen.");
             Console.ReadKey();
         }
